@@ -1,4 +1,10 @@
-// App component 
+import React from "react";
+
 export default function App() {
-  return <h1>Hello World from Workout Tracker!</h1>;
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>🏋️ Workout Tracker</h1>
+      <p>Your app is running successfully on Render!</p>
+    </div>
+  );
 }
